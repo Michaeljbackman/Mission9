@@ -40,3 +40,20 @@
 .read-the-docs {
   color: #888;
 }
+
+.team-card {
+  border: 2px solid #333;  /* Dark border around each team */
+  padding: 15px;            /* Space inside the box */
+  margin: 10px;             /* Space between boxes */
+  border-radius: 8px;       /* Slightly rounded corners */
+  background-color: #f9f9f9; /* Light background */
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  max-width: 400px;         /* Set a max width for readability */
+}
+
+.team-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
